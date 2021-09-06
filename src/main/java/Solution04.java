@@ -6,7 +6,7 @@
 import java.util.Scanner;
 
 public class Solution04 {
-    // Prompt user for a noun, verb, adjective, and adverd
+    // Prompt user for a noun, verb, adjective, and adverb
     // Read the input the user gives from standard in
     // Place the words the user gives into the story
     // Print the story to standard output
@@ -22,7 +22,7 @@ public class Solution04 {
     }
 
     static String promptUser(String use) {
-        System.out.printf("Enter a %s:\n");
+        System.out.printf("Enter a %s:\n", use);
         String input = scan.nextLine();
         return input;
     }
